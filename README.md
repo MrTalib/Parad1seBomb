@@ -1,4 +1,4 @@
-# Parad1seBomb
+# 💣 Parad1seBomb 💣 
 😈  I am not responsible for your **actions** 😈 
 
 😷  **Stay at home** 😷 
